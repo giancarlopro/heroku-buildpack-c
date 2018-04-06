@@ -1,0 +1,1 @@
+apt install jansson openssl libcurl4-openssl-dev

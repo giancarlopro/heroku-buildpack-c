@@ -23,6 +23,12 @@ if [ -f configure ]; then
   ./configure 2>&1 | indent
 fi
 
+# dependencies
+if [ -f install.sh ]; then
+  echo "-----> Installing dependencies"
+  ./install.sh 2>&1 | indent
+fi
+
 # make
 echo "-----> Compiling with Make"
 make 2>&1 | indent
