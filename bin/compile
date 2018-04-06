@@ -30,5 +30,5 @@ if [ -f install.sh ]; then
 fi
 
 # make
-echo "-----> Compiling with Make"
-make 2>&1 | indent
+# echo "-----> Compiling with Make"
+# make 2>&1 | indent
