@@ -24,7 +24,7 @@ if [ -f configure ]; then
 fi
 
 # dependencies
-if [ -f install.sh ]; then
+if [ -f install ]; then
   echo "-----> Installing dependencies"
   ./install.sh 2>&1 | indent
 fi
